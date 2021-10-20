@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
 // 1.ถ้าเรียก script ผ่าน dom ของ browser จะอ่าน function ของ cdn ได้
-// 2.ถ้าใช้ nodejs จะมองไม่เห็น function ภายใน cdn เวลาเรียกจะเป็น undefined
+// 2.ถ้าใช้ nodejs เรียกจะมองไม่เห็น function ภายใน cdn เวลาเรียกจะเป็น undefined
 
 function App() {
   //@Import
